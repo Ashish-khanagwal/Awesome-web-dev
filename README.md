@@ -5,4 +5,4 @@
 
 | Day no. | Date     | Project name    | Project link                                            |
 |---------|----------|-----------------|---------------------------------------------------------|
-| DAy-1   | 13-10-22 | Expanding Cards | [Expanding-cards](https://expandiing-cards.vercel.app/) |
+| Day-1   | 13-10-22 | Expanding Cards | [Expanding-cards](https://expandiing-cards.vercel.app/) |
