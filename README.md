@@ -3,6 +3,6 @@
 
 <h3>You'll find every project's workingn link here :point_down: </h3>
 
-| Day no. | Date     | Project name    | Project link |
-|---------|----------|-----------------|--------------|
-| DAy-1   | 13-10-22 | Expanding Cards | 
+| Day no. | Date     | Project name    | Project link                                            |
+|---------|----------|-----------------|---------------------------------------------------------|
+| DAy-1   | 13-10-22 | Expanding Cards | [Expanding-cards](https://expandiing-cards.vercel.app/) |
