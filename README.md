@@ -6,3 +6,4 @@
 | Day no. | Date     | Project name    | Project link                                            |
 |---------|----------|-----------------|---------------------------------------------------------|
 | Day-1   | 13-10-22 | Expanding Cards | [Expanding-cards](https://expandiing-cards.vercel.app/) |
+| Day-2   | 14-10-22 | Progress Bar    | [Progress bar](https://form-progress-bar.vercel.app/)   |
