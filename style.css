@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 400;
+}
+
+body {
+  background: linear-gradient(120deg, #020202 10%, rgba(90, 0, 224, 1.8) 190%);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.row {
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Navigation bar  */
+
+header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+
+.logo {
+  align-items: center;
+}
+
+.logo img {
+  max-width: 80px;
+}
+
+nav ul {
+  align-items: center;
+  gap: 30px;
+}
+
+nav a {
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+nav a::after {
+  display: block;
+  content: "";
+  width: 0;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+nav li:nth-of-type(4) a::after {
+  all: unset;
+}
+
+nav a:hover::after {
+  width: 30px;
+}
+
+nav li:nth-of-type(4) a,
+.hero a {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #a731dd 10%, rgba(90, 0, 224, 1.8) 190%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+}
+
+nav li:nth-of-type(4) a:hover,
+.hero a:hover {
+  transform: scale(1.2);
+  box-shadow: 4px 4px 4px rgba(167, 167, 248, 0.25);
+}
+
+/* Hero Section */
+
+.hero {
+  margin-top: -25px;
+  gap: 2em;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  min-height: calc(100vh - 90px);
+}
+
+.hero > * {
+  flex: 1 1 25em;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: clamp(40px, 5vw, 70px);
+  line-height: 1;
+}
+
+.hero p {
+  margin-top: -50px;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 1em 0;
+}
+
+.hero a {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 900px) {
+  .toggleMenu {
+    position: absolute;
+    right: 5%;
+    background-image: url(img/open.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 2em;
+    z-index: 1000;
+    transition: background-size 0.3s ease-in-out;
+    -webkit-transition: background-size 0.3s ease-in-out;
+    -moz-transition: background-size 0.3s ease-in-out;
+    -ms-transition: background-size 0.3s ease-in-out;
+    -o-transition: background-size 0.3s ease-in-out;
+  }
+  .toggleMenu.active {
+    position: fixed;
+    background-image: url(img/close.png);
+    background-size: 25px;
+  }
+  .navigation {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 0;
+    opacity: 0;
+    transform-origin: top;
+    transition: scale(1, 0);
+    -webkit-transition: scale(1, 0);
+    -moz-transition: scale(1, 0);
+    -ms-transition: scale(1, 0);
+    -o-transition: scale(1, 0);
+  }
+  .navigation.active {
+    position: fixed;
+    inset: 0;
+    max-height: 100%;
+    margin: auto;
+    opacity: 1;
+    background-color: rgba(90, 0, 224, 1.8);
+    transition: scale(1, 1);
+    -webkit-transition: scale(1, 1);
+    -moz-transition: scale(1, 1);
+    -ms-transition: scale(1, 1);
+    -o-transition: scale(1, 1);
+  }
+  nav ul {
+    flex-direction: column;
+  }
+}
