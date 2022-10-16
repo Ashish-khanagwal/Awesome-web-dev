@@ -44,7 +44,7 @@ p {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -107,7 +107,8 @@ nav a:hover::after {
 }
 
 nav li:nth-of-type(4) a,
-.hero a {
+.hero a,
+article a {
   padding: 10px 20px;
   background: linear-gradient(90deg, #a731dd 10%, rgba(90, 0, 224, 1.8) 190%);
   border-radius: 10px;
@@ -123,7 +124,8 @@ nav li:nth-of-type(4) a,
 }
 
 nav li:nth-of-type(4) a:hover,
-.hero a:hover {
+.hero a:hover,
+article a:hover {
   transform: scale(1.2);
   box-shadow: 4px 4px 4px rgba(167, 167, 248, 0.25);
 }
@@ -136,6 +138,7 @@ nav li:nth-of-type(4) a:hover,
   flex-wrap: wrap-reverse;
   align-items: center;
   min-height: calc(100vh - 90px);
+  margin-bottom: 50px;
 }
 
 .hero > * {
@@ -158,6 +161,75 @@ nav li:nth-of-type(4) a:hover,
 .hero a {
   font-weight: 700;
   font-size: 20px;
+}
+
+.hero-btn:not(:last-child) {
+  margin-right: 8px;
+}
+
+a img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+
+/* Article/Project Section */
+
+article {
+  background-color: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+article h1 {
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+}
+
+.article-templates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  overflow: hidden;
+  flex-wrap: wrap-reverse;
+}
+
+.card-projects {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #000;
+  padding: 20px 20px;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main/Socials Section */
+
+.main {
+  background-color: #000;
+  margin-bottom: 50px;
+}
+
+main h1 {
+  color: #fff;
+}
+
+/* Footer */
+
+footer {
+  background-color: #fff;
+}
+
+footer li a {
+  color: #000;
 }
 
 /* Media Query */

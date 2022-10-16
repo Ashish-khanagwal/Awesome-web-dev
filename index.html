@@ -15,18 +15,22 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+
     <!-- Navigation bar -->
     <header class="row container">
       <a href="#" class="logo row">
         <img src="img/Logo.png" />
+        <h1>Front-End Solution</h1>
       </a>
       <div class="toggleMenu" onclick="toggleMenu();"></div>
       <nav class="navigation row">
         <ul class="nav__ul row">
           <li class="nav__li"><a href="#">About</a></li>
-          <li class="nav__li"><a href="#">Projects</a></li>
-          <li class="nav__li"><a href="#">Join</a></li>
-          <li class="nav__li"><a href="">Github</a></li>
+          <li class="nav__li"><a href="#project">Projects</a></li>
+          <li class="nav__li"><a href="#join">Join</a></li>
+          <li class="nav__li">
+            <a href="https://github.com/Ashish-khanagwal" target="_blank">Github</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -34,14 +38,76 @@
     <!-- Hero Section -->
     <section class="hero row container">
       <div>
-        <h1>Build Front-end projects along with us!</h1>
-        <p>Join our 50-Days-50-Project challenge and build together</p>
+        <h1>Build 50 Front-end projects along with us!</h1>
+        <p>Join our 50-Days-50-Project challenge and build together!</p>
         <a href="#" class="hero-btn">Join us!</a>
+        <a href="https://github.com/Ashish-khanagwal/50-projects-50-days" target="_blank" class="hero-btn icon-btn"><img src="img/github.png"></img>Repo</a>
       </div>
       <div class="row">
         <img src="img/ill-1.png" alt="Developers" />
       </div>
     </section>
+
+    <!-- Project Section -->
+    <article class="row container article" id="project">
+        <h1 class="article-heading">Projects</h1>
+        <div class="article-templates">
+          <div class="card-projects">
+            <img src="">
+            <div class="card-link">
+              <a href="#" class="hero-btn" target="_blank">Live here!</a>
+              <a href="#" class="hero-btn" target="_blank">Code-base</a>
+            </div>
+          </div>
+          <div class="card-projects">
+            <img src="">
+            <div class="card-link">
+              <a href="#" class="hero-btn" target="_blank">Live here!</a>
+              <a href="#" class="hero-btn" target="_blank">Code-base</a>
+            </div>
+          </div>
+          <div class="card-projects">
+            <img src="">
+            <div class="card-link">
+              <a href="#" class="hero-btn" target="_blank">Live here!</a>
+              <a href="#" class="hero-btn" target="_blank">Code-base</a>
+            </div>
+          </div>
+          <div class="card-projects">
+            <img src="">
+            <div class="card-link">
+              <a href="#" class="hero-btn" target="_blank">Live here!</a>
+              <a href="#" class="hero-btn" target="_blank">Code-base</a>
+            </div>
+          </div>
+        </div>
+    </article>
+
+    <!-- Join us/Socials section -->
+    <main class="main container" id="join">
+      <h1>Join us!</h1>
+      <div class="socials">
+        <ul>
+          <li><a href="#"><img src=""/> Twitter</a></li>
+          <li><a href="#"><img src=""/> Instagram</a></li>
+          <li><a href="#"><img src=""/> Discord</a></li>
+          <li><a href="#"><img src=""/> GitHub</a></li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer row container">
+      <div class="footer-1">
+        <img src=""/>
+        <ul>
+          <li><a href="#"><img src=""/> Twitter</a></li>
+          <li><a href="#"><img src=""/> Instagram</a></li>
+          <li><a href="#"><img src=""/> Discord</a></li>
+          <li><a href="#"><img src=""/> GitHub</a></li>
+        </ul>
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
