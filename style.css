@@ -9,7 +9,11 @@
 }
 
 body {
-  background: linear-gradient(120deg, #020202 10%, rgba(90, 0, 224, 1.8) 190%);
+  background: linear-gradient(
+    to bottom,
+    #020202 30%,
+    rgba(90, 0, 224, 1.8) 150%
+  );
   background-repeat: no-repeat;
   margin: 0;
 }
