@@ -208,6 +208,10 @@ article p {
   text-align: center;
 }
 
+article img {
+  border-radius: 10px;
+}
+
 .article-templates {
   display: flex;
   align-items: center;
