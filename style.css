@@ -111,8 +111,7 @@ nav a:hover::after {
 }
 
 nav li:nth-of-type(4) a,
-.hero a,
-article a {
+.hero a {
   padding: 10px 20px;
   background: linear-gradient(90deg, #a731dd 10%, rgba(90, 0, 224, 1.8) 190%);
   border-radius: 10px;
@@ -128,8 +127,7 @@ article a {
 }
 
 nav li:nth-of-type(4) a:hover,
-.hero a:hover,
-article a:hover {
+.hero a:hover {
   transform: scale(1.2);
   box-shadow: 4px 4px 4px rgba(167, 167, 248, 0.25);
 }
@@ -185,11 +183,28 @@ article {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 article h1 {
-  color: #000;
-  font-size: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #fff;
+  border-radius: 5px;
+}
+
+article p {
+  color: #fff;
+  font-size: clamp(25px, 5vw, 28px);
+  margin: -5px 0 15px 0;
   text-align: center;
 }
 
@@ -205,14 +220,8 @@ article h1 {
 .card-projects {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #000;
+  background-color: rgba(202, 190, 219, 0.384);
   padding: 20px 20px;
-}
-
-.card-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Main/Socials Section */
