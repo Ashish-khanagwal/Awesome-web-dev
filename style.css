@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400");
 
 *,
 *::after,
@@ -160,7 +161,8 @@ nav li:nth-of-type(4) a:hover,
   padding: 1em 0;
 }
 
-.hero a {
+.hero a,
+article a {
   font-weight: 700;
   font-size: 20px;
 }
@@ -201,15 +203,10 @@ article h1 {
   border-radius: 5px;
 }
 
-article p {
+.article-text {
   color: #fff;
-  font-size: clamp(25px, 5vw, 28px);
-  margin: -5px 0 15px 0;
-  text-align: center;
-}
-
-article img {
-  border-radius: 10px;
+  font-weight: 800;
+  font-size: 25px;
 }
 
 .article-templates {
@@ -217,26 +214,59 @@ article img {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .card-projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: rgba(202, 190, 219, 0.384);
-  padding: 20px 20px;
-  height: 350px;
+  padding: 20px;
+  max-width: 400px;
+  max-height: 350px;
 }
 
 .card-vid {
-  height: 250px;
-  width: 500px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+article a {
+  display: inline-block;
+  background-color: #ae5de4;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 15px 15px 15px;
+}
+
+article a:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgba(167, 49, 221, 0.466);
 }
 
 /* Main/Socials Section */
 
-.main {
-  background-color: #000;
+main {
   margin-bottom: 50px;
 }
 
