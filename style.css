@@ -215,10 +215,9 @@ article img {
 .article-templates {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 5px;
-  overflow: hidden;
-  flex-wrap: wrap-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .card-projects {
@@ -226,6 +225,12 @@ article img {
   border-bottom-right-radius: 20px;
   background-color: rgba(202, 190, 219, 0.384);
   padding: 20px 20px;
+  height: 350px;
+}
+
+.card-vid {
+  height: 250px;
+  width: 500px;
 }
 
 /* Main/Socials Section */
