@@ -1,4 +1,4 @@
-<h1 align="center">50 Projects in  50 Days</h1>
+-<h1 align="center">50 Projects in  50 Days</h1>
 <h3 align="center">I'll be sharing some beginner-friendly front-end web development projects for straight 50-Days :rocket:</h3>
 
 <h3 align="center">This site contains all the projects built during this challenge :point_right: <a href="https://ashish-khanagwal.github.io/50-projects-50-days">50-Projects-50-Days</a> (<b>Under progress</b>)</h3>
@@ -14,5 +14,6 @@
 | Day-3   | 15-10-22 | Rotating Navbar | [Rotating Navbar](https://rotating-navbar.vercel.app/)  |
 | Day-4   | 16-10-22 | Search bar      | [Search bar](https://search-black.vercel.app/)          |
 | Day-5   | 17-10-22 | Loading page    | [Loading page](https://loading-page-eta.vercel.app/)    |
+| Day-6   | 19-10-22 | Scroll effect   | [Scroll effect](https://scroll-effect.vercel.app/)      |
 
 </div>
