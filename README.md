@@ -15,5 +15,6 @@
 | Day-4   | 16-10-22 | Search bar      | [Search bar](https://search-black.vercel.app/)          |
 | Day-5   | 17-10-22 | Loading page    | [Loading page](https://loading-page-eta.vercel.app/)    |
 | Day-6   | 19-10-22 | Scroll effect   | [Scroll effect](https://scroll-effect.vercel.app/)      |
+| Day-7   | 22-10-22 | Split Page      | [Split Page](https://split-page.vercel.app/)            |
 
 </div>
