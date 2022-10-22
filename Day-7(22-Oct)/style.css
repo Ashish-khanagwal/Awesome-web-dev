@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --left-bg-color: rgba(115, 8, 202, 0.7);
+  --right-bg-color: rgba(15, 116, 54, 0.8);
+  --l-hover-color: rgba(115, 8, 202, 1);
+  --r-hover-color: rgba(30, 125, 30, 1);
+  --h-width: 65%;
+  --o-width: 35%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #555;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.btn {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: solid #fff 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 15rem;
+  padding: 1.5rem;
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split.left::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--left-bg-color);
+}
+
+.split.left {
+  left: 0;
+  background: url("https://i.pinimg.com/736x/03/2d/b5/032db574a23b523b79481d8d222a41ca.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.split.left .btn:hover {
+  background-color: var(--l-hover-color);
+  border-color: var(--l-hover-color);
+}
+
+.split.right {
+  right: 0;
+  background: url("https://somosalameda.org/wp-content/uploads/2021/01/App-Development-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.split.right,
+.split.left,
+.split.left::before,
+.split.right::before {
+  transition: all 1000ms ease-in-out;
+}
+
+.split.right .btn:hover {
+  background-color: var(--r-hover-color);
+  border-color: var(--r-hover-color);
+}
+
+.split.right::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--right-bg-color);
+}
+
+.hover-left .left {
+  width: var(--h-width);
+}
+
+.hover-left .right {
+  width: var(--o-width);
+}
+
+.hover-right .right {
+  width: var(--h-width);
+}
+
+.hover-right .left {
+  width: var(--o-width);
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 10rem;
+    padding: 1rem;
+  }
+}
