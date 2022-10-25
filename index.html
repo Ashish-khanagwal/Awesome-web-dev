@@ -16,43 +16,48 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-
+    <div class="main_head">
     <!-- Navigation bar -->
-    <header class="row container">
-      <a href="#" class="logo row">
-        <img src="img/Logo.png" />
-        <h1>Front-End Solution</h1>
-      </a>
-      <div class="toggleMenu" onclick="toggleMenu();"></div>
-      <nav class="navigation row">
-        <ul class="nav__ul row">
-          <li class="nav__li"><a href="#">About</a></li>
-          <li class="nav__li"><a href="#project">Projects</a></li>
-          <li class="nav__li"><a href="#join">Join</a></li>
-          <li class="nav__li">
-            <a href="https://github.com/Ashish-khanagwal" target="_blank">Github</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+      <header class="row container">
+        <a href="#" class="logo row">
+          <img src="img/Logo.png" />
+          <h1>Front-End Solution</h1>
+        </a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+          <ul class="nav__ul row">
+            <li class="nav__li"><a href="#">About</a></li>
+            <li class="nav__li"><a href="#project">Projects</a></li>
+            <li class="nav__li"><a href="#join">Join</a></li>
+            <li class="nav__li">
+              <a href="https://github.com/Ashish-khanagwal" target="_blank">Github</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
     <!-- Hero Section -->
-    <section class="hero row container">
-      <div>
-        <h1>Build 50 Front-end projects along with us!</h1>
-        <p>Join our 50-Days-50-Project challenge and build together!</p>
-        <a href="http://discord.gg/ejXJkd64Jg" target="_blank" class="hero-btn">Join us!</a>
-        <a href="https://github.com/Ashish-khanagwal/50-projects-50-days" target="_blank" class="hero-btn icon-btn"><img src="img/github.png"></img>Repo</a>
-      </div>
-      <div class="row">
-        <img src="img/ill-1.png" alt="Developers" />
-      </div>
-    </section>
+      <section class="hero row container">
+        <div class="hero_content">
+          <h1>Build 50 Front-end projects along with us!</h1>
+          <p>Join our 50-Days-50-Project challenge and build together!</p>
+          <a href="http://discord.gg/ejXJkd64Jg" target="_blank" class="hero-btn">Join us!</a>
+          <a href="https://github.com/Ashish-khanagwal/50-projects-50-days" target="_blank" class="hero-btn icon-btn"><img src="img/github.png"></img>Repo</a>
+        </div>
+        <div class="row">
+          <img src="img/ill-1.png" alt="Developers" />
+        </div>
+        <img class="hero_wave" src="img/Wave.png">
+      </section>
+    </div>
 
     <!-- Project Section -->
     <article class="row container article" id="project">
         <h1 class="article-heading">Projects</h1>
-        <p class="article-text">All projects built using HTML, CSS and Vanilla JavaScript</p>
+        <div class="content_section">
+          <p class="article-text">All projects built using HTML, CSS and Vanilla JavaScript</p>
+          <img src="img/Clip_Math_problem_transparent_by_Icons8.gif">
+        </div>
         <div class="article-templates">
 
           <div class="card-projects">
@@ -142,6 +147,43 @@
               </div>
             </div>
           </div>
+
+          <div class="card-projects">
+            <div class="card-video">
+              <video class="card-vid" height="150" width="500" autoplay loop>
+                <source src="vid/vid-6.webm
+                " type="video/webm">
+              </video>
+            </div>
+            <div class="card-text">
+              <p>Day-6</p>
+              <p>We built an amazing scroll animation to give an cool look to your new project</p>
+            </div>
+            <div class="card-link">
+              <div class="card-link">
+                <a href="https://scroll-effect.vercel.app/" target="_blank" class="hero-btn">Live here</a>
+                <a href="https://github.com/Ashish-khanagwal/50-projects-50-days/tree/main/Day-6(19-Oct)" target="_blank" class="hero-btn icon-btn"><img src="img/github.png">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-projects">
+            <div class="card-video">
+              <video class="card-vid" height="150" width="500" autoplay loop>
+                <source src="vid/vid-7.webm" type="video/webm">
+              </video>
+            </div>
+            <div class="card-text">
+              <p>Day-7</p>
+              <p>Build an Split landing page animation with simple steps</p>
+            </div>
+            <div class="card-link">
+              <div class="card-link">
+                <a href="https://split-page.vercel.app/" target="_blank" class="hero-btn">Live here</a>
+                <a href="https://github.com/Ashish-khanagwal/50-projects-50-days/tree/main/Day-7(22-Oct)" target="_blank" class="hero-btn icon-btn"><img src="img/github.png">Code</a>
+              </div>
+            </div>
+          </div>
         </div>
     </article>
 
@@ -154,7 +196,7 @@
           <li><a href="#" class="btn btn-twitter"><img src="img/twitter.png"/> Twitter</a></li>
           <li><a href="#" class="btn btn-insta"><img src="img/instagram.png"/> Instagram</a></li>
           <li><a href="#" class="btn btn-dis"><img src="img/discord.png"/>Discord</a></li>
-          <li><a href="#" class="btn "><img src="img/github.png"/> GitHub</a></li>
+          <li><a href="#" class="btn btn-git"><img src="img/github_1.png"/> GitHub</a></li>
         </ul>
       </div>
     </main>
