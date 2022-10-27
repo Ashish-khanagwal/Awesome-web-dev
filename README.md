@@ -1,4 +1,4 @@
--<h1 align="center">50 Projects in  50 Days</h1>
+<h1 align="center">50 Projects in  50 Days</h1>
 <h3 align="center">I'll be sharing some beginner-friendly front-end web development projects for straight 50-Days :rocket:</h3>
 
 <h3 align="center">This site contains all the projects built during this challenge :point_right: <a href="https://ashish-khanagwal.github.io/50-projects-50-days">50-Projects-50-Days</a> (<b>Under progress</b>)</h3>
