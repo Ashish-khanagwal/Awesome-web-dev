@@ -1,0 +1,74 @@
+
+h1 
+
+
+{  
+    text-align: center;  
+    padding: 23px;  
+    background-color: ;  
+    color: black;  
+    font-size: 100px;
+     width: 100%;
+  height: 100px;
+  background-color: darkviolet;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top: none;
+}
+
+@keyframes example 
+
+{
+  from {background-color: black;}
+  to {background-color: blue;}
+}
+    
+    
+  
+#clear{  
+width: 270px;  
+border: 3px solid ;  
+    border-radius: 3px;  
+    padding: 20px;  
+    background-color: red;  
+}  
+  
+.formstyle  
+{  
+width: 300px;  
+height: 630px;  
+margin: auto;  
+border: 3px solid black;  
+border-radius: 5px;  
+padding: 20px;  
+}  
+  input:hover
+ {
+background-color: blue;
+ } 
+  
+  
+input  
+{  
+width: 20px;  
+
+background-color: black;  
+color: white;  
+border: 3px solid white;
+
+    border-radius: 50px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 25px;  
+}  
+  
+  
+#calc{  
+width: 250px;  
+border: 5px solid black;  
+    border-radius: 3px; 
+
+    padding: 20px;  
+    margin: auto;  
+}  
+  
