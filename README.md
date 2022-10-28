@@ -18,3 +18,15 @@
 | Day-7   | 22-10-22 | Split Page      | [Split Page](https://split-page.vercel.app/)            |
 
 </div>
+
+<h3 align="center">Dhruvi's all web dev projects</h3>
+
+<div align="center">
+
+| Project name    | Project link                                            |
+|-----------------|---------------------------------------------------------|
+| Calculator      | [Calculator](https://calculator-umber-one.vercel.app/)  |
+| swiggy slider   | [Swiggy slider](https://swiggy-slider.vercel.app/)      |
+| Carousel        | [Carousel](https://carousel-teal.vercel.app/)           |
+
+</div>
