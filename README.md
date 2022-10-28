@@ -4,7 +4,7 @@
 
 <ul>
 <li><a href="#50days50projects">50-days-50-projects</a></li>
-<li><a href="#Dhruvi">Awesome projects</a></li>
+<li><a href="#Dhruvi">Dhruvi's Awesome projects</a></li>
 </ul>
 
 <h3 align="center">This site contains all the projects we built :point_right: <a href="https://ashish-khanagwal.github.io/50-projects-50-days">Awesome Web-Dev projects</a> (<b>Under progress</b>)</h3>
