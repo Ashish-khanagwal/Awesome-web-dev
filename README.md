@@ -1,11 +1,19 @@
 <h1 align="center">Awesome Web-Dev Projects</h1>
 <h3 align="center">This repository contains amazing and simple beginner-friendly Web development projects :rocket:</h3>
+<p align="center">You'll find two different project sections, one is of 50-days-50-projects and other section is all about amazing web dev projects to help you upskill yourself</p>
+
+<ul>
+<li><a href="#50days50projects">50-days-50-projects</a></li>
+<li><a href="#Dhruvi">Awesome projects</a></li>
+</ul>
 
 <h3 align="center">This site contains all the projects we built :point_right: <a href="https://ashish-khanagwal.github.io/50-projects-50-days">Awesome Web-Dev projects</a> (<b>Under progress</b>)</h3>
 
 <h3 align="center">You'll find every project's working link here :point_down: </h3>
 
+
 <div align="center">
+<h1 id="50days50projects">50-Days-50-Projects</h1>
 
 | Day no. | Project name    | Live Project link                                       | Code Base                                   |
 |---------|-----------------|---------------------------------------------------------|---------------------------------------------|
@@ -19,7 +27,7 @@
 
 </div>
 
-<h3 align="center">Dhruvi's all web dev projects</h3>
+<h1 id="Dhruvi" align="center">Dhruvi's awesome web dev projects</h1>
 
 <div align="center">
 
