@@ -1,7 +1,7 @@
-<h1 align="center">50 Projects in  50 Days</h1>
-<h3 align="center">I'll be sharing some beginner-friendly front-end web development projects for straight 50-Days :rocket:</h3>
+<h1 align="center">Awesome Web-Dev Projects</h1>
+<h3 align="center">This repository contains amazing and simple beginner-friendly Web development projects :rocket:</h3>
 
-<h3 align="center">This site contains all the projects built during this challenge :point_right: <a href="https://ashish-khanagwal.github.io/50-projects-50-days">50-Projects-50-Days</a> (<b>Under progress</b>)</h3>
+<h3 align="center">This site contains all the projects we built :point_right: <a href="https://ashish-khanagwal.github.io/50-projects-50-days">Awesome Web-Dev projects</a> (<b>Under progress</b>)</h3>
 
 <h3 align="center">You'll find every project's working link here :point_down: </h3>
 
