@@ -31,5 +31,6 @@
 | Form validation | [Form validation](https://form-validation-eta-sepia.vercel.app/) |
 | Sticky notes    | [Sticky notes](https://sticky-notes-six.vercel.app/)             |
 | Taj palace      | [Taj palace](https://palace-seven.vercel.app/)                   |
+| Music library   | [Music library](https://music-library-one.vercel.app/)           |
 
 </div>
