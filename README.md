@@ -29,5 +29,7 @@
 | swiggy slider   | [Swiggy slider](https://swiggy-slider.vercel.app/)               |
 | Carousel        | [Carousel](https://carousel-teal.vercel.app/)                    |
 | Form validation | [Form validation](https://form-validation-eta-sepia.vercel.app/) |
+| Sticky notes    | [Sticky notes](https://sticky-notes-six.vercel.app/)             |
+| Taj palace      | [Taj palace](https://palace-seven.vercel.app/)                   |
 
 </div>
