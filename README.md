@@ -40,6 +40,7 @@
 | Sticky notes    | [Sticky notes](https://sticky-notes-six.vercel.app/)             | [Sticky notes](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/Day%20(STICKY%20NOTES)) |
 | Taj palace      | [Taj palace](https://palace-seven.vercel.app/)                   | [Taj palace](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20-%20(PALACE%20)) |
 | Music library   | [Music library](https://music-library-one.vercel.app/)           | [Music library](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/MUSIC) |
+| Hotel website   | [Hotel website](https://template-dusky-rho.vercel.app/)          | [Hotel website](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/DAY%20(TEMPLATE)) |
 
 </div>
 
