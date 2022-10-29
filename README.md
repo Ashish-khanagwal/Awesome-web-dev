@@ -15,15 +15,15 @@
 <div align="center">
 <h1 id="50days50projects">50-Days-50-Projects</h1>
 
-| Project name    | Live Project link                                       | Code Base                                   |
-|-----------------|---------------------------------------------------------|---------------------------------------------|
-| Expanding Cards | [Expanding-cards](https://expandiing-cards.vercel.app/) | [Expanding-cards](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-1(13-Oct)) |
-| Progress Bar    | [Progress bar](https://form-progress-bar.vercel.app/)   | [Progress bar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-2(14-Oct)) |
-| Rotating Navbar | [Rotating Navbar](https://rotating-navbar.vercel.app/)  | [Rotating Navbar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-3(15-Oct)) |
-| Search bar      | [Search bar](https://search-black.vercel.app/)          | [Search bar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-4(16-Oct)) |
-| Loading page    | [Loading page](https://loading-page-eta.vercel.app/)    | [Loading page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-5(17-Oct)) |
-| Scroll effect   | [Scroll effect](https://scroll-effect.vercel.app/)      | [Scroll effect](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-6(19-Oct)) |
-| Split Page      | [Split Page](https://split-page.vercel.app/)            | [Split page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-7(22-Oct)) |
+| Serial no. | Project name    | Live Project link                                       | Code Base                                   |
+|------------|-----------------|---------------------------------------------------------|---------------------------------------------|
+|     1.     | Expanding Cards | [Expanding-cards](https://expandiing-cards.vercel.app/) | [Expanding-cards](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-1(13-Oct)) |
+|     2.     | Progress Bar    | [Progress bar](https://form-progress-bar.vercel.app/)   | [Progress bar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-2(14-Oct)) |
+|     3.     | Rotating Navbar | [Rotating Navbar](https://rotating-navbar.vercel.app/)  | [Rotating Navbar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-3(15-Oct)) |
+|     4.     | Search bar      | [Search bar](https://search-black.vercel.app/)          | [Search bar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-4(16-Oct)) |
+|     5.     | Loading page    | [Loading page](https://loading-page-eta.vercel.app/)    | [Loading page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-5(17-Oct)) |
+|     6.     | Scroll effect   | [Scroll effect](https://scroll-effect.vercel.app/)      | [Scroll effect](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-6(19-Oct)) |
+|     7.     | Split Page      | [Split Page](https://split-page.vercel.app/)            | [Split page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-7(22-Oct)) |
 
 </div>
 
@@ -31,16 +31,16 @@
 
 <div align="center">
 
-| Project name    | Live Project link                                                | Code Base                                   |
-|-----------------|------------------------------------------------------------------|---------------------------------------------|
-| Calculator      | [Calculator](https://calculator-umber-one.vercel.app/)           | [Calculator](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20(CALCULATOR)) |
-| swiggy slider   | [Swiggy slider](https://swiggy-slider.vercel.app/)               | [Swiggy slider](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20(SWIGGY'S%20SLIDER)) |
-| Carousel        | [Carousel](https://carousel-teal.vercel.app/)                    | [Carousel](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20(CAROUSEL)) |
-| Form validation | [Form validation](https://form-validation-eta-sepia.vercel.app/) | [Form validation](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20(%20FORM%20%20VALIDATION%20)) |
-| Sticky notes    | [Sticky notes](https://sticky-notes-six.vercel.app/)             | [Sticky notes](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/Day%20(STICKY%20NOTES)) |
-| Taj palace      | [Taj palace](https://palace-seven.vercel.app/)                   | [Taj palace](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20-%20(PALACE%20)) |
-| Music library   | [Music library](https://music-library-one.vercel.app/)           | [Music library](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/MUSIC) |
-| Hotel website   | [Hotel website](https://template-dusky-rho.vercel.app/)          | [Hotel website](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/DAY%20(TEMPLATE)) |
+| Serial no. | Project name    | Live Project link                                                | Code Base                                   |
+|------------|-----------------|------------------------------------------------------------------|---------------------------------------------|
+|     1.     | Calculator      | [Calculator](https://calculator-umber-one.vercel.app/)           | [Calculator](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20(CALCULATOR)) |
+|     2.     | swiggy slider   | [Swiggy slider](https://swiggy-slider.vercel.app/)               | [Swiggy slider](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20(SWIGGY'S%20SLIDER)) |
+|     3.     | Carousel        | [Carousel](https://carousel-teal.vercel.app/)                    | [Carousel](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20(CAROUSEL)) |
+|     4.     | Form validation | [Form validation](https://form-validation-eta-sepia.vercel.app/) | [Form validation](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20(%20FORM%20%20VALIDATION%20)) |
+|     5.     | Sticky notes    | [Sticky notes](https://sticky-notes-six.vercel.app/)             | [Sticky notes](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/Day%20(STICKY%20NOTES)) |
+|     6.     | Taj palace      | [Taj palace](https://palace-seven.vercel.app/)                   | [Taj palace](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/DAY%20-%20(PALACE%20)) |
+|     7.     | Music library   | [Music library](https://music-library-one.vercel.app/)           | [Music library](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend%20-Project/MUSIC) |
+|     8.     | Hotel website   | [Hotel website](https://template-dusky-rho.vercel.app/)          | [Hotel website](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/DAY%20(TEMPLATE)) |
 
 </div>
 
