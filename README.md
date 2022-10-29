@@ -15,15 +15,15 @@
 <div align="center">
 <h1 id="50days50projects">50-Days-50-Projects</h1>
 
-| Day no. | Project name    | Live Project link                                       | Code Base                                   |
-|---------|-----------------|---------------------------------------------------------|---------------------------------------------|
-| Day-1   | Expanding Cards | [Expanding-cards](https://expandiing-cards.vercel.app/) | [Expanding-cards](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-1(13-Oct)) |
-| Day-2   | Progress Bar    | [Progress bar](https://form-progress-bar.vercel.app/)   | [Progress bar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-2(14-Oct)) |
-| Day-3   | Rotating Navbar | [Rotating Navbar](https://rotating-navbar.vercel.app/)  | [Rotating Navbar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-3(15-Oct)) |
-| Day-4   | Search bar      | [Search bar](https://search-black.vercel.app/)          | [Search bar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-4(16-Oct)) |
-| Day-5   | Loading page    | [Loading page](https://loading-page-eta.vercel.app/)    | [Loading page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-5(17-Oct)) |
-| Day-6   | Scroll effect   | [Scroll effect](https://scroll-effect.vercel.app/)      | [Scroll effect](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-6(19-Oct)) |
-| Day-7   | Split Page      | [Split Page](https://split-page.vercel.app/)            | [Split page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-7(22-Oct)) |
+| Project name    | Live Project link                                       | Code Base                                   |
+|-----------------|---------------------------------------------------------|---------------------------------------------|
+| Expanding Cards | [Expanding-cards](https://expandiing-cards.vercel.app/) | [Expanding-cards](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-1(13-Oct)) |
+| Progress Bar    | [Progress bar](https://form-progress-bar.vercel.app/)   | [Progress bar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-2(14-Oct)) |
+| Rotating Navbar | [Rotating Navbar](https://rotating-navbar.vercel.app/)  | [Rotating Navbar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-3(15-Oct)) |
+| Search bar      | [Search bar](https://search-black.vercel.app/)          | [Search bar](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-4(16-Oct)) |
+| Loading page    | [Loading page](https://loading-page-eta.vercel.app/)    | [Loading page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-5(17-Oct)) |
+| Scroll effect   | [Scroll effect](https://scroll-effect.vercel.app/)      | [Scroll effect](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-6(19-Oct)) |
+| Split Page      | [Split Page](https://split-page.vercel.app/)            | [Split page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-7(22-Oct)) |
 
 </div>
 
