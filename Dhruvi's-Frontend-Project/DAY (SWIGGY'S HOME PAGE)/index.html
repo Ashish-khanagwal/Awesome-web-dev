@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>project one</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <style type="text/css">
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 3;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+    .carousel {
+  margin: 50px auto;
+  padding: 0 70px;
+}
+.carousel .carousel-item {
+  height: 280px;
+  text-align: center;
+  overflow: hidden;
+  background-color: black;
+}
+.carousel .carousel-item .img-box {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.carousel .carousel-item img {  
+  max-width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.carousel .carousel-item h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.carousel .carousel-item .btn {
+  color: #333;
+  border-radius: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: none;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-top: 5px;
+  line-height: 16px;
+}
+.carousel .carousel-item .btn:hover, .carousel .carousel-item .btn:focus {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+  box-shadow: none;
+}
+.carousel .carousel-item .btn i {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+  text-align: cente;
+}
+.carousel .thumb-content {
+  padding: 15px;
+}
+.carousel-control-prev, .carousel-control-next {
+  height: 100px;
+  width: 40px;
+  background: none;
+  margin: auto 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.carousel-control-prev i, .carousel-control-next i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  margin: -16px 0 0 0;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: none;
+  font-weight: bold;
+}
+
+}
+.carousel .item-price {
+  font-size: 13px;
+  padding: 2px 0;
+}
+.carousel .item-price strike {
+  color: #999;
+  margin-right: 5px;
+}
+
+.carousel .carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 50%;
+  border-color: transparent;
+  border: none;
+}
+.carousel-indicators li { 
+  background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {  
+  background: rgba(0, 0, 0, 0.6);
+}
+.star-rating li {
+  padding: 0;
+}
+.star-rating i {
+  font-size: 14px;
+  color: #ffc000;
+}
+ul{
+  list-style-type: none;
+}
+li
+{
+  display: inline-block;
+}
+
+  </style>
+
+
+</head>
+<body >
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/swiggy.webp" class="rounded" alt="Cinque Terre" style="height: 15vh;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ADD YOUR LOCATION 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="gold1.html">EARING</a></li>
+            <li><a class="dropdown-item" href="necklace.html">NECKLACE</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="gold11.html">BRACELET</a></li>
+          </ul>
+        </li>
+        
+       
+      
+      
+      <form class="d-flex">
+        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+</ul>
+<ul>
+      <a class="navbar-brand" href="#"><img src="images/logo1.jpg" class="rounded"data-bs-toggle="modal" data-bs-target="#myModal" alt="Cinque Terre" style="height: 10vh;">Offers</a>
+   <a class="navbar-brand" href="#"><img src="images/logos.png" class="rounded"data-bs-toggle="modal" data-bs-target="#myModal" alt="Cinque Terre" style="height: 10vh;">Sign In</a>
+   <a class="navbar-brand" href="#"><img src="images/cart.png" class="rounded"data-bs-toggle="modal" data-bs-target="#myModal" alt="Cinque Terre" style="height: 10vh;">Cart</a>
+      <div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">LOGIN</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       ENTER YOUR NAME <input type="text" name="name" class="mt-3"><br>
+         ENTER YOUR PASS <input type="text" name="name " class="mt-3"><br>
+         <button type="button" class="btn btn-primary" class="mt-6">SUBMIT</button><br>
+      </div>
+      <h6>Don't have acc?<a href="#">create a new account</a></h6>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+</ul>
+</div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        
+      </ol>   
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  
+                 
+                 
+                 
+                </div>            
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  
+                </div>            
+              </div>
+            </div>    
+            <div class="col-sm-2">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                 
+                  
+                </div>            
+              </div>
+            </div>                
+            <div class="col-sm-3">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/4.webp" class="img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  
+                  
+                </div>            
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/5.webp" class="img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  
+                </div>            
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="thumb-wrapper">
+                <div class="img-box">
+                  <img src="images/6.webp" class="img-fluid" alt="">
+                </div>
+                <div class="thumb-content">
+                  
+                  
+                </div>            
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          
+            
+           
+          </div>
+        </div>
+      </div>
+      <!-- Carousel controls -->
+      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <i class="fa fa-angle-left"></i>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <i class="fa fa-angle-right"></i>
+      </a>
+    </div>
+    </div>
+  </div>
+</div>
+  <hr>               
+<ul class="nav">
+  <li class="nav-item">
+    <h2>1184 RESTAURANTS </h2>
+    
+  </li>
+  <li class="nav-item">
+
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#" style="margin-left:230px; font-weight: bold; color: black;" ><h3>PIZZA</h3></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#" style=" font-weight: bold;color: black;" ><h3>BURGER</h3></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#" style=" font-weight: bold;color: black;" ><h3>SANDWICH</h3></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#" style=" font-weight: bold;color: black;" ><h3>CAKES</h3></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#"style=" font-weight: bold;color: black;"  ><h3>CHINESE</h3></a>
+  </li>
+</ul>
+<hr>
+<div class ="row">
+
+
+  <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/pizza.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">PIZZA</h5>
+    <p class="card-text"> Pizzas are made with love .... for u and your loved ones!!!</p>
+    <a href="#" class="btn btn-danger">ADD TO CART </a>
+  </div>
+</div>
+ </div>
+ <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/burger.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BURGER</h5>
+    <p class="card-text"> Burger are made with love .... for u and your loved ones!!!</p>
+    <a href="#" class="btn btn-danger">ADD TO CART </a>
+  </div>
+</div>
+ </div>
+ <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/sandwich.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">SANDWICH</h5>
+    <p class="card-text"> Sandwich are made with love .... for u and your loved ones!!!</p>
+    <a href="#" class="btn btn-danger">ADD TO CART </a>
+  </div>
+</div>
+ </div>
+  </div>
+  <div class ="row mt-5">
+
+
+  <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/cake.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CAKES</h5>
+    <p class="card-text"> Cakes are made with love .... for u and your loved ones!!!</p>
+    <a href="#" class="btn btn-danger">ADD TO CART </a>
+  </div>
+</div>
+ </div>
+ <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/chinese.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CHINESE</h5>
+    <p class="card-text"> Chinese are made with love .... for u and your loved ones!!!</p>
+    <a href="#" class="btn btn-danger">ADD TO CART </a>
+  </div>
+</div>
+ </div>
+ <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="images/snack.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">SNACKS</h5>
+    <p class="card-text"> Snacks are made with love .... for u and your loved ones!!!</p>
+    <a href="#" class="btn btn-danger">ADD TO CART </a>
+  </div>
+</div>
+ </div>
+  </div>
+  <hr>
+  <div>
+  <footer>
+  <div class="rounded-social-buttons">
+                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-button twitter" href="https://www.twitter.com/dhruvicodes" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/in/dhruvi-thakkar-880554234" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+</footer>
+</body>
+</html>
