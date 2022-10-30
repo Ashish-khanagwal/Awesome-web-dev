@@ -7,7 +7,7 @@
 <li><a href="#Dhruvi">Dhruvi's Awesome projects</a></li>
 </ul>
 
-<h3 align="center">This site contains all the projects we built :point_right: <a href="https://ashish-khanagwal.github.io/50-projects-50-days">Awesome Web-Dev projects</a> (<b>Under progress</b>)</h3>
+<h3 align="center">This site contains all the projects we built :point_right: <a href="https://ashish-khanagwal.github.io/Awesome-web-dev/">Awesome Web-Dev projects</a> (<b>Under progress</b>)</h3>
 
 <h3 align="center">You'll find every project's working link here :point_down: </h3>
 
