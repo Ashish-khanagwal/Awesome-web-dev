@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flip</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+			body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left: 500px;
+  margin-top: 70px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+	</style>
+</head>
+<body>
+ <h1 style="text-align: center;">FLIP THE CARD !!</h1>
+ <hr>
+<div class="flip-card" style="text-align: center;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/dhruvi.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>DHRUVI THAKKAR</h1> 
+      <p>FULL STACK DEVELOPER  </p> 
+      <p>SHE LOVES TO CODE && COLLAB</p>
+      <footer>
+  <div class="rounded-social-buttons">
+                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-button twitter" href="https://www.twitter.com/dhruvicodes" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/in/dhruvi-thakkar-880554234" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+</footer>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
