@@ -69,6 +69,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1.5em 0;
+  width: 100vw;
 }
 
 .logo {
@@ -122,7 +123,7 @@ nav a:hover::after {
 }
 
 nav li:nth-of-type(4) a,
-.hero a {
+.hero-btn {
   padding: 10px 20px;
   background: linear-gradient(90deg, #a731dd 10%, rgba(90, 0, 224, 1.8) 190%);
   border-radius: 10px;
@@ -138,7 +139,7 @@ nav li:nth-of-type(4) a,
 }
 
 nav li:nth-of-type(4) a:hover,
-.hero a:hover {
+.hero-btn:hover {
   transform: scale(1.2);
   box-shadow: 4px 4px 4px rgba(167, 167, 248, 0.25);
 }
@@ -181,9 +182,13 @@ article a {
   margin-right: 8px;
 }
 
-a img {
-  max-width: 20px;
-  margin-right: 5px;
+.repo-btn {
+  background: transparent;
+  margin-left: 10px;
+}
+
+.repo-btn {
+  cursor: pointer;
 }
 
 /* Media Query */
