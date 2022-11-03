@@ -17,6 +17,8 @@
 Note: Have a look on already created issues, try to work on them
 ```
 
+Once your PR gets merged, then don't forget to add your Dev info in [Contributors](https://github.com/Ashish-khanagwal/Awesome-web-dev/blob/main/CONTRIBUTORS.md) file and we will give you a shout-out on our socials
+
 <h3 align="center">You'll find every project's working link here :point_down: </h3>
 
 
