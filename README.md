@@ -11,7 +11,7 @@
 
 <h4>Want to improve the website? want to collaborate on it? First make sure to read <a href="https://github.com/Ashish-khanagwal/Awesome-web-dev/blob/main/CONTRIBUTING.md">Contribution guidelines</a> </h4>
 
-<h3>Please make sure to raise the <a href="https://github.com/Ashish-khanagwal/Awesome-web-dev/issues">issues</a> first and wait to get it assigned to you, before making PR</h3>
+<p>Please make sure to raise the <a href="https://github.com/Ashish-khanagwal/Awesome-web-dev/issues">issues</a> first and wait to get it assigned to you, before making PR</p>
 
 ```
 Note: Have a look on already created issues, try to work on them
