@@ -17,7 +17,7 @@
 Note: Have a look on already created issues, try to work on them
 ```
 
-Once your PR gets merged, then don't forget to add your Dev info in [Contributors](https://github.com/Ashish-khanagwal/Awesome-web-dev/blob/main/CONTRIBUTORS.md) file and we will give you a shout-out on our socials
+Once your PR gets merged, then don't forget to add your Dev Info in [Contributors](https://github.com/Ashish-khanagwal/Awesome-web-dev/blob/main/CONTRIBUTORS.md) file and we will give you a shout-out on our socials
 
 <h3 align="center">You'll find every project's working link here :point_down: </h3>
 
@@ -54,3 +54,6 @@ Once your PR gets merged, then don't forget to add your Dev info in [Contributor
 |     9.     | Swiggy home page | [Swiggy home page](https://50-projects-50-days-gnjg.vercel.app/) | [Swiggy home page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/DAY%20(SWIGGY'S%20HOME%20PAGE)) |
 
 </div>
+
+
+**Don't forget to give a star :star: to the repository**
