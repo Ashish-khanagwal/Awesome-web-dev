@@ -54,29 +54,3 @@ Once your PR gets merged, then don't forget to add your Dev info in [Contributor
 |     9.     | Swiggy home page | [Swiggy home page](https://50-projects-50-days-gnjg.vercel.app/) | [Swiggy home page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/DAY%20(SWIGGY'S%20HOME%20PAGE)) |
 
 </div>
-
-<h1 align="center">Connect with us</h1>
-
-<h3 align="center">Dhruvi Thakkar</h3>
-<div align="center">
-<img width="100" src="https://user-images.githubusercontent.com/75534912/198829051-3c7f6211-41d2-4fa2-909f-4e381ec81eaf.png"/>
-</div>
-
-<div align="center">
-<a href="https://github.com/DhruviThakkar210"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://twitter.com/dhruvicodes"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/dhruvi-thakkar-880554234"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://linktr.ee/dhruvithakkar"><img src="https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white"/></a>
-</div>
-
-<h3 align="center">Ashish Khanagwal</h3>
-<div align="center">
-<img width="100" src="https://user-images.githubusercontent.com/75534912/198829492-d6868b8d-8e72-4777-945d-348b47bbbd64.png"/>
-</div>
-
-<div align="center">
-<a href="https://github.com/Ashish-khanagwal"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://twitter.com/iashishkhangwal"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/ashish-khanagwal-890326213/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://linktr.ee/Ashish_Khanagwal"><img src="https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white"/></a>
-</div>
