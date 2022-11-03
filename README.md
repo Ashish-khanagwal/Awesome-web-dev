@@ -1,13 +1,15 @@
 <h1 align="center">Awesome Web-Dev Projects</h1>
 <h3 align="center">This repository contains amazing and simple beginner-friendly Web development projects :rocket:</h3>
-<p align="center">You'll find two different project sections, one is of 50-days-50-projects and other section is all about amazing web dev projects to help you upskill yourself</p>
+<p align="center">You'll find two different project sections, one is of 50-days-50-projects and other section contains cool web dev projects to help you upskill yourself</p>
 
 <ul>
 <li><a href="#50days50projects">50-days-50-projects</a></li>
 <li><a href="#Dhruvi">Dhruvi's Awesome projects</a></li>
 </ul>
 
-<h3 align="center">This site contains all the projects we built :point_right: <a href="https://ashish-khanagwal.github.io/Awesome-web-dev/">Awesome Web-Dev projects</a> (<b>Under progress</b>)</h3>
+<h3>This site contains all the projects we built :point_right: <a href="https://ashish-khanagwal.github.io/Awesome-web-dev/">Awesome Web-Dev projects</a> (<b>Under progress</b>)</h3>
+
+<h4>Want to improve the website? want to collaborate on it? First make sure to read <a href="https://github.com/Ashish-khanagwal/Awesome-web-dev/blob/main/CONTRIBUTING.md">Contribution guidelines</a> </h4>
 
 <h3 align="center">You'll find every project's working link here :point_down: </h3>
 
