@@ -387,7 +387,7 @@ article a:hover {
 }
 
 .footer{
-	background-color: rgb(0, 2, 49);
+	background:linear-gradient(600deg, #020202 30%, rgba(90, 0, 224, 1.8) 150%);
     padding: 70px 0;
     border-top-left-radius:35%;
     border-top-right-radius:35%;
