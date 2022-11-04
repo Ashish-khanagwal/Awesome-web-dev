@@ -41,3 +41,15 @@ GitHub Profile pic :--> https://github.com/<github_username>.png
 <a href="https://www.linkedin.com/in/geetikaguptagg/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://linktr.ee/geetika_gupta"><img src="https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white"/></a>
 </div>
+
+<h3 align="center">4. Drishti Jain</h3>
+<div align="center">
+<img width="100" src="https://avatars.githubusercontent.com/u/100796147?s=400&u=ae5467215f2a8d73fea2ca62b51574ac4c314dc8&v=4">
+</div>
+
+<div align="center">
+<a href="https://github.com/Drishti-jain21"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://twitter.com/Drishti_2103"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/drishti-jain-b5a26b220/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+
+</div>
