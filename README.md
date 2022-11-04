@@ -38,7 +38,7 @@ Once your PR gets merged, then don't forget to add your Dev Info in [Contributor
 |     9.     | Height Converter | [Height Converter](https://636524da483a130a61a91992--heightconverterweb.netlify.app/) | [Height Converter](https://github.com/Drishti-jain21/Awesome-web-dev/tree/main/Drishti(Height%20Converter)) |
 </div>
 
-<h1 id="Dhruvi" align="center">Dhruvi's awesome web dev projects</h1>
+<h1 id="Dhruvi" align="center">Dhruvi's web dev projects</h1>
 
 <div align="center">
 
