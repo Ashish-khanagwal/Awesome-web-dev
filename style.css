@@ -52,6 +52,9 @@ ul {
 
 p {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #a731dd;
 }
 
 .row {
@@ -222,15 +225,22 @@ article {
 
 article h1,
 main h1 {
-  color: #a731dd;
+  color: black;
+  background: #ae5de4;
   font-size: 60px;
   font-weight: 700;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
   padding-bottom: 5px;
-  border-bottom: 5px solid #a731dd;
+  border-bottom: 5px solid #000000;
   border-radius: 5px;
 }
 
+article p {
+  font-family: cursive;
+  font-size: medium;
+  font-weight: 200;
+}
 .content_section {
   display: flex;
   align-items: center;
@@ -456,4 +466,16 @@ article a:hover {
     top: 95%;
     left: 0;
   }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
