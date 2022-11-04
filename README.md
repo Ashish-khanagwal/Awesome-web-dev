@@ -52,7 +52,7 @@ Once your PR gets merged, then don't forget to add your Dev Info in [Contributor
 |     7.     | Music library   | [Music library](https://music-library-one.vercel.app/)           | [Music library](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/MUSIC) |
 |     8.     | Hotel website   | [Hotel website](https://template-dusky-rho.vercel.app/)          | [Hotel website](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/DAY%20(TEMPLATE)) |
 |     9.     | Swiggy home page | [Swiggy home page](https://50-projects-50-days-gnjg.vercel.app/) | [Swiggy home page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/DAY%20(SWIGGY'S%20HOME%20PAGE)) |
-|     10.     | Swiggy home page | [Height Converter](https://636524da483a130a61a91992--heightconverterweb.netlify.app/) | [Height Converter](https://github.com/Drishti-jain21/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/Drishti(Height%20Converter)) |
+|     10.     | Height Converter | [Height Converter](https://636524da483a130a61a91992--heightconverterweb.netlify.app/) | [Height Converter](https://github.com/Drishti-jain21/Awesome-web-dev/tree/main/Dhruvi's-Frontend-Project/Drishti(Height%20Converter)) |
 
 </div>
 
