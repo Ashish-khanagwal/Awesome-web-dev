@@ -29,3 +29,15 @@ GitHub Profile pic :--> https://github.com/<github_username>.png
 <a href="https://www.linkedin.com/in/dhruvi-thakkar-880554234"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://linktr.ee/dhruvithakkar"><img src="https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white"/></a>
 </div>
+
+<h3 align="center">3. Geetika Gupta</h3>
+<div align="center">
+<img width="100" src="https://pbs.twimg.com/profile_images/1579758881093263361/ndZI9qIs_400x400.jpg">
+</div>
+
+<div align="center">
+<a href="https://github.com/geetika001"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://twitter.com/geetikagupta_"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/geetikaguptagg/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://linktr.ee/geetika_gupta"><img src="https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white"/></a>
+</div>
