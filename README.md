@@ -34,7 +34,7 @@ Once your PR gets merged, then don't forget to add your Dev Info in [Contributor
 |     5.     | Loading page    | [Loading page](https://loading-page-eta.vercel.app/)    | [Loading page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-5(Loading-page)) |
 |     6.     | Scroll effect   | [Scroll effect](https://scroll-effect.vercel.app/)      | [Scroll effect](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-6(Scroll-effect)) |
 |     7.     | Split Page      | [Split Page](https://split-page.vercel.app/)            | [Split page](https://github.com/Ashish-khanagwal/Awesome-web-dev/tree/main/Day-7(Split-page)) |
-
+|     8.     | Techn Blogs webapp | [Tech Geeks](https://techgeeksblog.netlify.app/)     | [Tech Geeks](https://github.com/geetika001/Awesome-web-dev/tree/main/Technical%20Blogs%20Website)
 </div>
 
 <h1 id="Dhruvi" align="center">Dhruvi's awesome web dev projects</h1>
