@@ -52,3 +52,14 @@ GitHub Profile pic :--> https://github.com/<github_username>.png
 <a href="https://twitter.com/Drishti_2103"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/drishti-jain-b5a26b220/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </div>
+
+<h3 align="center">5. Naiyya Mittal</h3>
+<div align="center">
+<img width="100" src="https://github.com/Naiyya01.png">
+</div>
+
+<div align="center">
+<a href="https://github.com/Naiyya01"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://twitter.com/MittalNaiyya"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/naiyya-mittal-746097212/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</div>
