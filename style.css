@@ -193,6 +193,184 @@ article a {
 .repo-btn {
   cursor: pointer;
 }
+/* About Us section*/
+
+.heading h1{
+  background: linear-gradient(to right, #9544f4 0%, #db03fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #000000;
+  border-radius: 5px;
+  width:fit-content;
+}
+
+.heading p{
+  display: flex;
+  align-items: center;
+  color: #ae5de4;
+  font-weight: 800;
+  font-size: 30px;
+  font-family:cursive;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.heading .icon{
+  display:flex;
+  justify-content: center;
+  color:"outline:#121331,primary:#646e78,secondary:#4bb3fd,tertiary:#ebe6ef";
+  width:500px;
+  height:250px;
+
+}
+
+.about{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(112, 47, 233);
+  margin:5px;
+  border-radius:30px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.profile-card{
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+  margin: 0 25px;
+}
+
+.profile-card:hover{
+  border-radius: 10px;
+  height: 260px;
+}
+
+.profile-card .img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: .6s;
+  z-index: 99;
+}
+
+.img img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+}
+
+.profile-card:hover .img{
+  transform: translateY(-60px);
+}
+
+.profile-card:hover img{
+  border-radius: 10px;
+}
+
+.caption{
+  text-align: center;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: .6s;
+}
+.profile-card:hover .caption{
+  opacity: 1;
+}
+.caption h3{
+  font-size: 21px;
+  font-family: sans-serif;
+}
+.caption p{
+  font-size: 15px;
+  color: #0c52a1;
+  font-family: sans-serif;
+  margin: 2px 0 9px 0;
+}
+
+.caption .social-links a{
+  color: rgb(255, 255, 255);
+  margin-right: 15px;
+  font-size: 21px;
+  transition: .6s;
+}
+.social-links a:hover{
+  color: #ffffff;
+}
 
 /* Article/Project Section */
 
@@ -225,8 +403,9 @@ article {
 
 article h1,
 main h1 {
-  color: black;
-  background: #ae5de4;
+  background: linear-gradient(to right, #9544f4 0%, #db03fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 60px;
   font-weight: 700;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
