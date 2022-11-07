@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="pingpong.css">
+    
+</head>
+<body onload = "startBall()" style="background-color:black;"> 
+    <!-- net -->
+    <div id = "net"></div>
+    <!-- scores -->
+    <div style="display:flex; justify-content:space-around; font-size:100px; color:wheat;">
+        <span id="score1"></span><span id="score2"></span>
+    </div>
+    <!-- text -->
+    <div style = "font-size: 50px; color:blue; margin-left:550px; margin-top: 80px; z-index :1;" id="spaceBar">Press Space Bar to Begin</div>
+    <div style = "font-size: 25px; color:violet; margin-left:600px; margin-top:px; z-index :1;" id="spaceBar1">(Use <span style="color:purple;text-decoration: underline;">arrow keys</span> to move the paddles)</div>
+    <!-- paddles and balls -->
+    <div id = "paddle1"></div>
+    <div id = "ball"></div>
+    <div id = "paddle2"></div>
+    <script src="pingpong.js"></script>
+</body>
+</html>
