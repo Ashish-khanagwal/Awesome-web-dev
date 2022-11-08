@@ -63,3 +63,24 @@ GitHub Profile pic :--> https://github.com/<github_username>.png
 <a href="https://twitter.com/MittalNaiyya"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/naiyya-mittal-746097212/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </div>
+
+<h3 align="center">6. Ekansh Gupta</h3>
+<div align="center">
+<img width="100" src="https://github.com/gupta-ekansh.png">
+</div>
+
+<div align="center">
+<a href="https://github.com/gupta-ekansh"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/ekansh-gupta-aa0677222/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</div>
+
+<h3 align="center">7. Bharat Pahwa</h3>
+<div align="center">
+<img width="100" src="https://avatars.githubusercontent.com/u/102665650?s=400&u=7e337ac75e6d3fe32b7543c8729b11928adc4012&v=4">
+</div>
+
+<div align="center">
+<a href="https://github.com/Bharatpahwa"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://twitter.com/BharatPahwa4?t=oeJnVvAeFNf05U81PZS2Mw&s=09"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/bharat-pahwa-924816220/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</div>
