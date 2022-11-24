@@ -1,0 +1,35 @@
+#first
+{
+	background: #FF8C91;
+}
+  
+#third 
+{
+	background-color: 
+#FFDCDC;
+}
+#third img
+{
+	width: 80%;
+}
+ #third li
+{
+	float: left;
+	display: block;
+	padding-right: px;
+}
+#fourth
+{
+	background-color: #E8E8E1;
+}
+.header ul
+{
+	 list-style-type: none;
+}
+.header li
+{
+float : left;
+display: block;
+padding: 20px;
+
+}
