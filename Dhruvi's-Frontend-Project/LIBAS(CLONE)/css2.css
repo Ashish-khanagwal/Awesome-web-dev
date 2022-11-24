@@ -1,0 +1,16 @@
+ul
+{
+	list-style-type: none;
+	float: left;
+	font-size: 20px;
+}
+body
+{
+	color: #72006A;
+	
+}
+
+.foot
+{
+	background-image: url("image/back.gifv");
+}
