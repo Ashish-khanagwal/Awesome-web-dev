@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style type="text/css">
+    
+
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*   border: 1px solid red; */
+  transition: transform 0.7s ease-in-out;
+}
+
+body {
+  font-size: 1rem;
+  background-color: #0a0a0a;
+  text-align: center;
+  background-image: url('chocogif.webp');
+}
+
+@media (max-width: 900px) {
+  body {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 0.5rem;
+  }
+}
+
+.container {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+h1,
+.treat i {
+  position: absolute;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: "Nosifer", sans-serif;
+  font-size: 2.8em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  animation: textShadow 10s linear infinite;
+}
+
+@keyframes textShadow {
+  0% {
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0), 0px 0px 3px rgba(198, 130, 38, 0),
+      0px 0px 5px rgba(238, 168, 72, 0), 0px 0px 10px rgba(223, 174, 107, 0),
+      0px 0px 15px rgba(223, 174, 107, 0);
+  }
+  60% {
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 1),
+      0px 0px 3px rgba(198, 130, 38, 0.3), 0px 0px 5px rgba(238, 168, 72, 0.2),
+      0px 0px 10px rgba(223, 174, 107, 0.2),
+      0px 0px 15px rgba(223, 174, 107, 0.1);
+  }
+  100% {
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0), 0px 0px 3px rgba(198, 130, 38, 0),
+      0px 0px 5px rgba(238, 168, 72, 0), 0px 0px 10px rgba(223, 174, 107, 0),
+      0px 0px 15px rgba(223, 174, 107, 0);
+  }
+}
+
+/* treat */
+
+.treat i {
+  top: -30%;
+  font-size: 3em;
+}
+
+.treat1 i,
+.treat:nth-child(3n) i {
+  font-size: 4em;
+}
+
+.treat:nth-child(8n) i {
+  font-size: 5em;
+}
+
+.treat:nth-child(10n) i {
+  font-size: 6.5em;
+}
+
+.treat1 i.fa-solid.fa-candy-cane {
+  left: 5%;
+  color: rgba(225, 79, 112, 1);
+}
+
+.treat2 i.fa-solid.fa-cake-candles {
+  left: 15%;
+  color: rgba(39, 109, 205, 1);
+}
+
+.treat3 i.fa-solid.fa-candy-cane {
+  left: 25%;
+  color: rgba(232, 215, 50, 1);
+}
+
+.treat4 i.fa-solid.fa-ice-cream {
+  left: 35%;
+  color: rgba(238, 95, 233, 1);
+}
+
+.treat5 i.fa-solid.fa-cookie-bite {
+  left: 45%;
+  color: rgba(214, 137, 16, 1);
+}
+
+.treat6 i.fa-solid.fa-stroopwafel {
+  left: 55%;
+  color: rgba(249, 103, 8, 1);
+}
+
+.treat7 i.fa-solid.fa-cake-candles {
+  left: 65%;
+  color: rgba(255, 0, 89, 1);
+}
+
+.treat8 i.fa-solid.fa-candy-cane {
+  left: 75%;
+  color: rgba(103, 189, 248, 1);
+}
+
+.treat9 i.fa-solid.fa-cookie {
+  left: 85%;
+  color: rgba(5, 207, 220, 1);
+}
+
+.treat10 i.fa-solid.fa-candy-cane {
+  left: 88%;
+  color: rgba(225, 79, 112, 1);
+}
+
+.treat11 i.fa-solid.fa-cake-candles {
+  left: 50%;
+  color: rgba(203, 62, 196, 1);
+}
+
+.treat12 i.fa-solid.fa-candy-cane {
+  left: 80%;
+  color: rgba(232, 215, 50, 1);
+}
+
+.treat13 i.fa-solid.fa-ice-cream {
+  left: 70%;
+  color: rgba(103, 189, 248, 1);
+}
+
+.treat14 i.fa-solid.fa-cookie-bite {
+  left: 60%;
+  color: rgba(214, 137, 16, 1);
+}
+
+.treat15 i.fa-solid.fa-stroopwafel {
+  left: 20%;
+  color: rgba(223, 20, 69, 1);
+}
+
+.treat16 i.fa-solid.fa-cake-candles {
+  left: 40%;
+  color: rgba(53, 232, 50, 1);
+}
+
+.treat17 i.fa-solid.fa-candy-cane {
+  left: 30%;
+  color: rgba(79, 119, 225, 1);
+}
+
+.treat18 i.fa-solid.fa-cookie {
+  left: 10%;
+  color: rgba(5, 207, 220, 1);
+}
+
+.treat19 i.fa-solid.fa-candy-cane {
+  left: 50%;
+  color: rgba(225, 79, 112, 1);
+}
+
+.treat20 i.fa-solid.fa-cake-candles {
+  left: 45%;
+  color: rgba(39, 109, 205, 1);
+}
+
+.treat21 i.fa-solid.fa-candy-cane {
+  left: 65%;
+  color: rgba(232, 215, 50, 1);
+}
+
+.treat22 i.fa-solid.fa-ice-cream {
+  left: 75%;
+  color: rgba(238, 95, 233, 1);
+}
+
+.treat23 i.fa-solid.fa-cookie-bite {
+  left: 15%;
+  color: rgba(214, 137, 16, 1);
+}
+
+.treat24 i.fa-solid.fa-stroopwafel {
+  left: 25%;
+  color: rgba(249, 103, 8, 1);
+}
+
+.treat25 i.fa-solid.fa-cake-candles {
+  left: 5%;
+  color: rgba(184, 157, 107, 1);
+}
+
+.treat26 i.fa-solid.fa-candy-cane {
+  left: 45%;
+  color: rgba(99, 233, 119, 1);
+}
+
+.treat27 i.fa-solid.fa-cookie {
+  left: 52%;
+  color: rgba(5, 207, 220, 1);
+}
+
+.treat28 i.fa-solid.fa-candy-cane {
+  left: 38%;
+  color: rgba(225, 79, 112, 1);
+}
+
+.treat29 i.fa-solid.fa-cake-candles {
+  left: 78%;
+  color: rgba(240, 93, 63, 1);
+}
+
+.treat30 i.fa-solid.fa-candy-cane {
+  left: 48%;
+  color: rgba(232, 215, 50, 1);
+}
+
+.treat31 i.fa-solid.fa-ice-cream {
+  left: 20%;
+  color: rgba(167, 232, 159, 1);
+}
+
+.treat32 i.fa-solid.fa-cookie-bite {
+  left: 90%;
+  color: rgba(214, 137, 16, 1);
+}
+
+.treat33 i.fa-solid.fa-stroopwafel {
+  left: 68%;
+  color: rgba(160, 94, 32, 1);
+}
+
+.treat34 i.fa-solid.fa-cake-candles {
+  left: 3%;
+  color: rgba(255, 195, 0, 1);
+}
+
+.treat35 i.fa-solid.fa-candy-cane {
+  left: 65%;
+  color: rgba(79, 119, 225, 1);
+}
+
+.treat36 i.fa-solid.fa-cookie {
+  left: 35%;
+  color: rgba(160, 94, 32, 1);
+}
+
+/* animation */
+.treat {
+  animation: randomRain 3s linear infinite;
+}
+
+@keyframes randomRain {
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.treat:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.treat:nth-child(2) {
+  animation-delay: 0.8s;
+}
+
+.treat:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.treat:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.treat:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.treat:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.treat:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+.treat:nth-child(8) {
+  animation-delay: 1.3s;
+}
+
+.treat:nth-child(9) {
+  animation-delay: 0.9s;
+}
+
+.treat:nth-child(10) {
+  animation-delay: 1.4s;
+}
+
+.treat:nth-child(11) {
+  animation-delay: 1.1s;
+}
+
+.treat:nth-child(12) {
+  animation-delay: 1.5s;
+}
+
+.treat:nth-child(13) {
+  animation-delay: 1.2s;
+}
+
+.treat:nth-child(14) {
+  animation-delay: 1.6s;
+}
+
+.treat:nth-child(15) {
+  animation-delay: 1.3s;
+}
+
+.treat:nth-child(16) {
+  animation-delay: 1.7s;
+}
+
+.treat:nth-child(17) {
+  animation-delay: 1.4s;
+}
+
+.treat:nth-child(18) {
+  animation-delay: 1.8s;
+}
+
+.treat:nth-child(19) {
+  animation-delay: 1.5s;
+}
+
+.treat:nth-child(20) {
+  animation-delay: 1.9s;
+}
+
+.treat:nth-child(21) {
+  animation-delay: 1.6s;
+}
+
+.treat:nth-child(22) {
+  animation-delay: 2s;
+}
+
+.treat:nth-child(23) {
+  animation-delay: 1.7s;
+}
+
+.treat:nth-child(24) {
+  animation-delay: 2.1s;
+}
+
+.treat:nth-child(25) {
+  animation-delay: 1.8s;
+}
+
+.treat:nth-child(26) {
+  animation-delay: 2.2s;
+}
+
+.treat:nth-child(27) {
+  animation-delay: 1.9s;
+}
+
+.treat:nth-child(28) {
+  animation-delay: 2.3s;
+}
+
+.treat:nth-child(29) {
+  animation-delay: 2s;
+}
+
+.treat:nth-child(30) {
+  animation-delay: 2.4s;
+}
+
+.treat:nth-child(31) {
+  animation-delay: 2.1s;
+}
+
+.treat:nth-child(32) {
+  animation-delay: 2.5s;
+}
+
+.treat:nth-child(33) {
+  animation-delay: 2.2s;
+}
+
+.treat:nth-child(34) {
+  animation-delay: 2.6s;
+}
+
+.treat:nth-child(35) {
+  animation-delay: 2.3s;
+}
+
+.treat:nth-child(36) {
+  animation-delay: 2.7s;
+}
+
+  </style>
+</head>
+<body>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+
+<div class="container">
+  <h1>Happy Chocolate Day , Vimi !</h1>
+  <div class="treat treat1"><i class="fa-solid fa-candy-cane fa-spin"></i></div>
+  <div class="treat treat2"><i class="fa-solid fa-cake-candles fa-flip"></i></div>
+  <div class="treat treat3"><i class="fa-solid fa-candy-cane fa-rotate-90"></i></div>
+  <div class="treat treat4"><i class="fa-solid fa-ice-cream fa-spin"></i></div>
+  <div class="treat treat5"><i class="fa-solid fa-cookie-bite"></i></div>
+  <div class="treat treat6"><i class="fa-solid fa-stroopwafel fa-flip"></i></div>
+  <div class="treat treat7"><i class="fa-solid fa-cake-candles"></i></div>
+  <div class="treat treat8"><i class="fa-solid fa-candy-cane fa-flip fa-flip-y"></i></div>
+  <div class="treat treat9"><i class="fa-solid fa-cookie fa-spin"></i></div>
+  <div class="treat treat10"><i class="fa-solid fa-candy-cane fa-spin"></i></div>
+  <div class="treat treat11"><i class="fa-solid fa-cake-candles fa-flip"></i></div>
+  <div class="treat treat12"><i class="fa-solid fa-candy-cane fa-rotate-90"></i></div>
+  <div class="treat treat13"><i class="fa-solid fa-ice-cream fa-spin"></i></div>
+  <div class="treat treat14"><i class="fa-solid fa-cookie-bite"></i></div>
+  <div class="treat treat15"><i class="fa-solid fa-stroopwafel fa-flip"></i></div>
+  <div class="treat treat16"><i class="fa-solid fa-cake-candles"></i></div>
+  <div class="treat treat17"><i class="fa-solid fa-candy-cane fa-flip fa-flip-y"></i></div>
+  <div class="treat treat18"><i class="fa-solid fa-cookie fa-spin"></i>
+    <div class="treat treat19"><i class="fa-solid fa-candy-cane fa-spin"></i></div>
+    <div class="treat treat20"><i class="fa-solid fa-cake-candles fa-flip"></i></div>
+    <div class="treat treat21"><i class="fa-solid fa-candy-cane fa-rotate-90"></i></div>
+    <div class="treat treat22"><i class="fa-solid fa-ice-cream fa-spin"></i></div>
+    <div class="treat treat23"><i class="fa-solid fa-cookie-bite"></i></div>
+    <div class="treat treat24"><i class="fa-solid fa-stroopwafel fa-flip"></i></div>
+    <div class="treat treat25"><i class="fa-solid fa-cake-candles"></i></div>
+    <div class="treat treat26"><i class="fa-solid fa-candy-cane fa-flip fa-flip-y"></i></div>
+    <div class="treat treat27"><i class="fa-solid fa-cookie fa-spin"></i></div>
+    <div class="treat treat28"><i class="fa-solid fa-candy-cane fa-spin"></i></div>
+    <div class="treat treat29"><i class="fa-solid fa-cake-candles fa-flip"></i></div>
+    <div class="treat treat30"><i class="fa-solid fa-candy-cane fa-rotate-90"></i></div>
+    <div class="treat treat31"><i class="fa-solid fa-ice-cream fa-spin"></i></div>
+    <div class="treat treat32"><i class="fa-solid fa-cookie-bite"></i></div>
+    <div class="treat treat33"><i class="fa-solid fa-stroopwafel fa-flip"></i></div>
+    <div class="treat treat34"><i class="fa-solid fa-cake-candles"></i></div>
+    <div class="treat treat35"><i class="fa-solid fa-candy-cane fa-flip fa-flip-y"></i></div>
+    <div class="treat treat36"><i class="fa-solid fa-cookie fa-spin"></i>
+    </div>
+  </div>
+  </body>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
